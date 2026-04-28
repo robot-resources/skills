@@ -11,7 +11,7 @@ This repo contains agent skills for [Robot Resources](https://robotresources.ai)
 Teaches AI agents how to install and use Robot Resources:
 
 - **Router** — Routes each LLM call to the cheapest capable model. 60-90% cost savings across OpenAI, Anthropic, and Google.
-- **Scraper** — Compresses web pages to clean markdown. 70-80% fewer tokens per page.
+- **Scraper** — Compresses web pages to clean markdown. Median 91% token reduction per page.
 
 ## Install the skill
 
@@ -33,7 +33,7 @@ clawhub install robot-resources
 npx robot-resources
 ```
 
-One command sets up the Router proxy, configures your agents, and gets you saving immediately.
+One command sets up the Router plugin, configures your agents, and gets you saving immediately.
 
 ## Links
 
